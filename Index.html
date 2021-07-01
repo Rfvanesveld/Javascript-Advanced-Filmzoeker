@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RFVE</title>
+    <link rel="stylesheet" href="./Stylesheet.css">
+    <script defer src="./Movies.js"></script>
+    <script defer src="./Script.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>RFVE Filmzoeker</h1>
+    </header>
+
+    <nav id="Movie_Container">
+        <ul>
+            <li>
+                <input type="radio" id="all" name="filter" value="all">
+                <label for="all">Alle Films</label>
+            </li>
+            <li><input type="radio" id="latest" name="filter" value="latest">
+                <label for="latest">Nieuwste Films</label>
+            </li>
+            <li><input type="radio" id="avengers" name="filter" value="avengers">
+                <label for="avengers">Avengers Films</label>
+            </li>
+            <li><input type="radio" id="xmen" name="filter" value="xmen">
+                <label for="xmen">X-Men Films</label>
+            </li>
+            <li><input type="radio" id="princess" name="filter" value="princess">
+                <label for="princess">Princess Films</label>
+            </li>
+            <li><input type="radio" id="batman" name="filter" value="batman">
+                <label for="batman">Batman Films</label>
+            </li>
+
+            <div>
+                <input type="text" id="searchBox" name="search" placeholder="Zoek film......" value="" ; />
+            </div>
+
+        </ul>
+    </nav>
+
+    <main>
+
+        <ul id="movieDataBase"></ul>
+
+    </main>
+
+    <footer>
+        <h4>Made by Rfve</h4>
+    </footer>
+
+
+</body>
+
+
+
+</html>
